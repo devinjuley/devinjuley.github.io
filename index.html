@@ -115,8 +115,7 @@
 				you just want to connect!</p>
 			<div class="row">
 				<div class="col-8 col-12-small">
-					<form method="post" action="mailto:devinjuley@gmail.com" method="POST" enctype="multipart/form-data"
-						name="EmailForm">
+					<form action="https://formspree.io/f/xqknavpp" method="POST" id="contact-form">
 						<div class="row gtr-uniform gtr-50">
 							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
 									placeholder="Name" /></div>
@@ -125,9 +124,10 @@
 							<div class="col-12"><textarea name="message" id="message" placeholder="Message"
 									rows="4"></textarea></div>
 						</div>
+
 					</form>
 					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
+						<li><button type="submit" class="button" form='contact-form'>Send Message</button></li>
 					</ul>
 				</div>
 				<div class="col-4 col-12-small">
